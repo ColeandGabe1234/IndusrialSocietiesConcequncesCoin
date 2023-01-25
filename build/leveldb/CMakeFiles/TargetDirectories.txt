@@ -1,4 +1,0 @@
-/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/rebuild_cache.dir
-/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/leveldbutil.dir
-/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/edit_cache.dir
-/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/leveldb.dir
