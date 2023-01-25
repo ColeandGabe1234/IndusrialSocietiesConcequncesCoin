@@ -20,7 +20,7 @@ namespace CryptoNote
 {
     namespace parameters
     {
-        const uint64_t DIFFICULTY_TARGET = 25; // seconds
+        const uint64_t DIFFICULTY_TARGET = 5; // seconds
 
         const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER = 500'000'005;
 
@@ -80,7 +80,7 @@ namespace CryptoNote
            to import from when the block height cannot be found in the node or the node is offline. */
         const uint64_t GENESIS_BLOCK_TIMESTAMP = 1512800692;
 
-        const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
+        const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 5;
 
         const size_t CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE =
             100000; // size of block (bytes) after which reward for block calculated using block size
