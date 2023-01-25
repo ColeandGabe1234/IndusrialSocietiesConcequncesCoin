@@ -1,0 +1,148 @@
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5aabe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5aabe.dir/build.make CMakeFiles/cmTC_5aabe.dir/build
+gmake[1]: Entering directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aabe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -std=c11 -o CMakeFiles/cmTC_5aabe.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5aabe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aabe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value CMakeFiles/cmTC_5aabe.dir/CheckFunctionExists.c.o -o cmTC_5aabe  -lcrc32c 
+/usr/bin/ld: cannot find -lcrc32c
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5aabe.dir/build.make:106: cmTC_5aabe] Error 1
+gmake[1]: Leaving directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5aabe/fast] Error 2
+
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_29c9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29c9b.dir/build.make CMakeFiles/cmTC_29c9b.dir/build
+gmake[1]: Entering directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29c9b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -std=c11 -o CMakeFiles/cmTC_29c9b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_29c9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29c9b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_29c9b.dir/CheckFunctionExists.c.o -o cmTC_29c9b  -ltcmalloc 
+/usr/bin/ld: cannot find -ltcmalloc
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_29c9b.dir/build.make:106: cmTC_29c9b] Error 1
+gmake[1]: Leaving directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_29c9b/fast] Error 2
+
+
+
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ad29b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad29b.dir/build.make CMakeFiles/cmTC_ad29b.dir/build
+gmake[1]: Entering directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad29b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -std=c++11 -o CMakeFiles/cmTC_ad29b.dir/CheckSymbolExists.cxx.o -c /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
+    8 |   return ((int*)(&F_FULLFSYNC))[argc];
+      |                   ^~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_ad29b.dir/build.make:85: CMakeFiles/cmTC_ad29b.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_ad29b/fast] Error 2
+
+
+File /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
+Change Dir: /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4df44/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4df44.dir/build.make CMakeFiles/cmTC_4df44.dir/build
+gmake[1]: Entering directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4df44.dir/src.cxx.o
+/usr/bin/c++   -fno-exceptions -fno-rtti -DHAVE_CLANG_THREAD_SAFETY   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_4df44.dir/src.cxx.o -c /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_4df44.dir/build.make:85: CMakeFiles/cmTC_4df44.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_4df44/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bdce1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bdce1.dir/build.make CMakeFiles/cmTC_bdce1.dir/build
+gmake[1]: Entering directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdce1.dir/src.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD -std=c11 -o CMakeFiles/cmTC_bdce1.dir/src.c.o -c /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bdce1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdce1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_bdce1.dir/src.c.o -o cmTC_bdce1 
+/usr/bin/ld: CMakeFiles/cmTC_bdce1.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_bdce1.dir/build.make:106: cmTC_bdce1] Error 1
+gmake[1]: Leaving directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_bdce1/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_792ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_792ed.dir/build.make CMakeFiles/cmTC_792ed.dir/build
+gmake[1]: Entering directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_792ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create -std=c11 -o CMakeFiles/cmTC_792ed.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_792ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_792ed.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_792ed.dir/CheckFunctionExists.c.o -o cmTC_792ed  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_792ed.dir/build.make:106: cmTC_792ed] Error 1
+gmake[1]: Leaving directory '/home/cole/Desktop/funny/turtlecoin/build/leveldb/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_792ed/fast] Error 2
+
+
+

@@ -1,0 +1,125 @@
+2023-Jan-25 14:01:08.032992 INFO    [daemon] 
+
+                                                                            
+████████╗██╗  ██╗██████╗ ████████╗██╗    ██████╗ █████╗ █████╗ ██╗███╗   ██╗
+╚══██╔══╝██║  ██║██╔══██╗╚══██╔══╝██║    ██╔═══╝██╔═══╝██╔══██╗██║████╗  ██║
+   ██║   ██║  ██║██████╔╝   ██║   ██║    ████╗  ██║    ██║  ██║██║██╔██╗ ██║
+   ██║   ██║  ██║██╔══██╗   ██║   ██║    ██╔═╝  ██║    ██║  ██║██║██║╚██╗██║
+   ██║   ╚█████╔╝██║  ██║   ██║   ██████╗██████╗╚█████╗╚█████╔╝██║██║ ╚████║
+   ╚═╝    ╚════╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝╚═════╝ ╚════╝ ╚════╝ ╚═╝╚═╝  ╚═══╝
+
+ TirtleCoin v1.0.1.2001 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2018-2021, The TurtleCoin Developers
+
+ Additional Copyright(s) may apply, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE
+
+
+2023-Jan-25 14:01:08.033107 INFO    [daemon] Program Working Directory: "/home/cole/Desktop/funny/tirtlecoin/build"
+2023-Jan-25 14:01:08.033147 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2023-Jan-25 14:01:08.033164 INFO    [daemon] Loaded 0 default checkpoints
+2023-Jan-25 14:01:08.033185 INFO    [RocksDBWrapper] Opening DB in /home/cole/.TirtleCoin/DB
+2023-Jan-25 14:01:08.595904 INFO    [RocksDBWrapper] DB opened in /home/cole/.TirtleCoin/DB
+2023-Jan-25 14:01:08.596017 INFO    [daemon] Initializing core...
+2023-Jan-25 14:01:08.597038 INFO    [daemon] Core initialized OK
+2023-Jan-25 14:01:08.597399 INFO    [daemon] Initializing p2p server...
+2023-Jan-25 14:01:08.597458 INFO    [node_server] Binding on 0.0.0.0:11897
+2023-Jan-25 14:01:08.597497 INFO    [node_server] Net service bound on 0.0.0.0:11897
+2023-Jan-25 14:01:08.597515 INFO    [node_server] Attempting to add IGD port mapping.
+2023-Jan-25 14:01:09.627725 INFO    [node_server] Added IGD port mapping.
+2023-Jan-25 14:01:09.627779 INFO    [daemon] P2p server initialized OK
+2023-Jan-25 14:01:09.627800 INFO    [daemon] Starting core rpc server on address 127.0.0.1:11898
+2023-Jan-25 14:01:09.627916 INFO    [daemon] Starting p2p net loop...
+2023-Jan-25 14:01:09.627937 INFO    [node_server] Starting node_server
+2023-Jan-25 14:01:09.629296 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:11.723598 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:13.725414 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:15.727388 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:17.729172 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:19.731106 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:21.733094 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:23.749989 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:25.751894 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:27.753765 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:29.755591 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:31.757467 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:33.759465 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:35.761307 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:37.762988 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:39.764791 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:41.766769 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:43.768751 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:45.770711 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:47.772839 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:49.774852 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:51.776892 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:53.778931 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:55.780859 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:57.782871 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:01:59.784903 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:01.786994 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:03.789024 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:05.790962 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:07.792789 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:09.794550 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:11.796396 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:13.798298 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:15.800095 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:17.801759 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:19.803575 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:21.805116 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:23.806916 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:25.808872 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:27.810845 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:29.812542 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:31.814541 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:33.816470 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:35.818453 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:37.820469 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:39.822353 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:41.824300 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:43.826112 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:45.828046 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:47.829635 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:49.831593 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:51.833375 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:53.834937 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:55.836456 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:57.838413 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:02:59.839994 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:01.842115 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:03.843863 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:05.845381 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:07.846804 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:09.848723 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:11.850403 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:13.852179 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:15.853943 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:17.855458 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:19.856856 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:21.858703 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:23.860414 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:25.862082 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:27.863980 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:29.865544 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:31.867312 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:33.869107 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2023-Jan-25 14:03:34.557195 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2023-Jan-25 14:03:34.557437 INFO    [node_server] Stopping NodeServer and its 0 connections...
+2023-Jan-25 14:03:34.582923 DEBUG   [node_server] acceptLoop() is interrupted
+2023-Jan-25 14:03:34.583063 DEBUG   [node_server] acceptLoop finished
+2023-Jan-25 14:03:34.583170 DEBUG   [node_server] onIdle() is interrupted
+2023-Jan-25 14:03:34.583255 DEBUG   [node_server] onIdle finished
+2023-Jan-25 14:03:34.583347 DEBUG   [node_server] timedSyncLoop() is interrupted
+2023-Jan-25 14:03:34.583448 DEBUG   [node_server] timedSyncLoop finished
+2023-Jan-25 14:03:34.583540 DEBUG   [node_server] timeoutLoop() is interrupted
+2023-Jan-25 14:03:34.583625 INFO    [node_server] NodeServer loop stopped
+2023-Jan-25 14:03:34.583705 INFO    [daemon] p2p net loop stopped
+2023-Jan-25 14:03:34.583783 INFO    [daemon] Stopping core rpc server...
+2023-Jan-25 14:03:35.442980 INFO    [daemon] Deinitializing p2p...
+2023-Jan-25 14:03:35.443650 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2023-Jan-25 14:03:35.445874 INFO    [RocksDBWrapper] Closing DB.
+2023-Jan-25 14:03:35.618415 INFO    [daemon] Node stopped.
